@@ -9,5 +9,6 @@ Potential Next Steps (in addition to the upgrades from the previous JS only proj
 ----------------------------------------
 * make sure there are no blank input fields
 * check that the "year" as input by the user is a number
-* if either of the above tests aren't passed use JQuery's fadeIn/fadeOut to flash the offending input field(s)
-* display one car at time using JQuery animation methods
+* confirm that the picURL is in fact a URL (has "http://" or "https://" within it's text)
+* if any of the above tests aren't passed use JQuery's fadeIn/fadeOut to flash the offending input field(s) along with an alert
+* show/hide cars using JQuery animation methods
